@@ -21,7 +21,7 @@ class Employee:
 	def set_raise_amount(cls, amount):
 		cls.raise_amount = amount
 
-
+Employee.set_raise_amount(1.05)
 
 emp_1 = Employee('Gareth', 'Bale', 200000)
 emp_2 = Employee('Test', 'User', 50000)
