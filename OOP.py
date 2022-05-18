@@ -27,5 +27,4 @@ emp_1 = Employee('Gareth', 'Bale', 200000)
 emp_2 = Employee('Test', 'User', 50000)
 emp_3 = Employee('Test2', 'User2', 100)
 
-print(emp_1.raise_amount)
-print(emp_2.raise_amount)
+print(emp_1.email)
